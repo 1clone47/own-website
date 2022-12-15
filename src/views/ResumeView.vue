@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-blue-500 flex flex-col h-screen">
+  <div class="bg-zinc-500 flex flex-col h-screen">
     <div
-      class="flex flex-row font-mono border border-white bg-white mx-32 mt-8 h-1/2"
+      class="flex flex-row font-mono border border-white rounded-lg bg-white mx-32 mt-8 h-1/2"
     >
       <div class="flex flex-col flex-1">
         <img
@@ -47,26 +47,87 @@
           </svg>
         </div>
       </div>
-      <div class="flex flex-col text-3xl flex-1 items-left">
+      <div class="flex flex-col text-3xl flex-1 items-left mt-4">
         <h1>Andy Wagner</h1>
       </div>
     </div>
     <div
       class="flex flex-row mx-32 text-white font-mono text-lg h-16 items-center"
     >
-      <p class="flex-1 text-center">Technical Skills</p>
-      <p class="flex-1 text-center">Soft Skills</p>
+      <p class="flex-1 text-center font-bold text-xl">Technical Skills</p>
+      <p class="flex-1 text-center font-bold text-xl">Soft Skills</p>
     </div>
-    <div class="flex flex-row mx-32 bg-blue-500 space-x-8">
-      <div class="flex flex-col border-2 bg-white flex-1 h-40">
-        <input type="range" class="flex-1" name="" id="python" />
-        <input type="range" class="flex-1" id="javascript"/>
-        <input type="range" class="flex-1" id="ms-office"/>
+    <div class="flex flex-row mx-32 bg-zinc-500 space-x-8">
+      <div class="flex flex-col border-2 bg-white flex-1 h-42 rounded-lg">
+        <label for="python" class="font-mono text-center">Python</label>
+        <input
+          type="range"
+          class="flex-1 accent-blue-400"
+          value="40"
+          name=""
+          id="python"
+          disabled
+        />
+        <label for="javascript" class="font-mono text-center">Javascript</label>
+        <input
+          type="range"
+          class="flex-1 accent-yellow-600"
+          value="30"
+          name=""
+          id="javascript"
+          disabled
+        />
+        <label for="vue" class="font-mono text-center">Vue-Framework</label>
+        <input
+          type="range"
+          class="flex-1 accent-green-600"
+          value="50"
+          name=""
+          id="vue"
+          disabled
+        />
+        <label for="tailwindcss" class="font-mono text-center">
+          TailwindCSS</label>
+        <input
+          type="range"
+          class="flex-1 accent-blue-200"
+          value="45"
+          name=""
+          id="tailwindcss"
+          disabled
+        />
       </div>
-      <div class="flex flex-col border-2 bg-white flex-1">
-        <input type="range" name="" id="" class="flex-1" />
-        <input type="range" name="" id="" class="flex-1" />
-        <input type="range" name="" id="" class="flex-1" />
+      <div class="flex flex-col border-2 bg-white flex-1 rounded-lg">
+        <label for="languages" class="font-mono text-center">
+          Fremdsprachen</label>
+        <input
+          type="range"
+          class="flex-1 accent-red-600"
+          value="75"
+          name=""
+          id="languages"
+          disabled
+        />
+        <label for="teamwork" class="font-mono text-center">
+          Teamfähigkeit</label>
+        <input
+          type="range"
+          class="flex-1 accent-orange-600"
+          value="70"
+          name=""
+          id="teamwork"
+          disabled
+        />
+        <Label for="logicalThinking" class="font-mono text-center">
+          Logisches Denkvermögen</Label>
+        <input
+          type="range"
+          class="flex-1 accent-green-600"
+          value="66"
+          name=""
+          id="logicalThinking"
+          disabled
+        />
       </div>
     </div>
   </div>

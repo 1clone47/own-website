@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row items-center justify-center bg-blue-500 text-white">
+  <div class="flex flex-row items-center justify-center bg-zinc-500 text-white">
     <div class="flex-1">
       <img src="../assets/images/no-background.png" alt="" />
     </div>
