@@ -47,8 +47,27 @@
           </svg>
         </div>
       </div>
-      <div class="flex flex-col text-3xl flex-1 items-left mt-4">
-        <h1>Andy Wagner</h1>
+      <div class="flex flex-col text-3xl flex-1 items-left mt-4 space-y-5">
+        <div class="space-y-4">
+          <h1>Andy Wagner</h1>
+          <p class="text-base font-mono text-stone-600">
+            Fachinformatiker f. Anwendungsentwicklung
+          </p>
+        </div>
+        <div
+          class="flex flex-row w-full text-sm font-semibold font-mono space-x-4 text-white"
+        >
+          <p class="border py-4 px-4 rounded-lg border-green-600 bg-green-600">DOWNLOAD CV</p>
+          <p class="border py-4 px-4 rounded-lg border-blue-600 bg-blue-600">KONTAKT</p>
+        </div>
+        <div class="text-base font-mono w-3/4 border-black">
+          <p class="border-b">Alter: 20</p>
+          <p class="border-b">Firma: RWT GmbH</p>
+          <p class="border-b">Ausbild. Jahr: 2</p>
+          <p class="border-b">Location: Germering, Deutschland</p>
+          <p class="border-b">Webseite: Iclone47.com</p>
+          <p class="border-b">Mobil: +49 (0) 1754821258</p>
+        </div>
       </div>
     </div>
     <div
